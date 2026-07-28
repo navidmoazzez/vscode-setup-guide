@@ -110,9 +110,9 @@ Cursor is VS Code underneath, so all of this works there the same way. The only 
 ## Requirements
 
 - A Mac or Windows computer
-- [VS Code](https://code.visualstudio.com), free
-- A Claude Pro or Max subscription for Claude Code. No API key needed.
-- Optional: a paid ChatGPT plan for Codex, a Google account for Gemini Code Assist
+- [VS Code](https://creatorschool.link/vscode), free
+- A Claude Pro or Max subscription for [Claude Code](https://creatorschool.link/claudecode). No API key needed.
+- Optional: a paid [ChatGPT](https://creatorschool.link/chatgpt) plan for Codex, a [Google](https://creatorschool.link/gemini) account for Gemini Code Assist
 
 ## What's in this repo
 
