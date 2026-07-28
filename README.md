@@ -1,8 +1,8 @@
 # VS Code Setup Guide
 
-Run Claude Code in a window that doesn't fight you. This is my exact VS Code setup: the theme, the 9 extensions, every setting. **One click imports the whole thing.**
+Run Claude Code in a window that doesn't fight you. The theme, the 9 extensions, every setting. **One click imports the whole thing.**
 
-You don't need to know how to code. I do almost none. This is where I write, plan, run my business, and talk to 3 AI agents at once, and it happens to be a code editor.
+You don't need to know how to code. This is a place to write, plan, run a business, and talk to 3 AI agents at once, and it happens to be a code editor.
 
 Free and MIT-licensed.
 
@@ -27,9 +27,9 @@ VS Code is free, made by Microsoft, and it's really just a fast window for worki
 
 **1. Get VS Code.** Download it from [code.visualstudio.com](https://creatorschool.link/vscode). It's free, and the big blue button picks the right version for your computer. Already have it? Skip to step 2.
 
-**2. Import my setup.** [Click here to import the profile](https://creatorschool.link/vscodesetup). Your browser opens, you click "Import Profile in Visual Studio Code", VS Code opens, you click Import. Every extension installs itself and the whole look applies.
+**2. Import the setup.** [Click here to import the profile](https://creatorschool.link/vscodesetup). Your browser opens, you click "Import Profile in Visual Studio Code", VS Code opens, you click Import. Every extension installs itself and the whole look applies.
 
-The link doesn't change. When I update my setup, the same link serves the new version, so you can re-import any time.
+The link doesn't change. When the setup is updated, the same link serves the new version, so you can re-import any time.
 
 **3. Sign in to Claude.** Open the Claude Code panel at the bottom and sign in with your Claude account. A Pro or Max subscription works. You don't need an API key.
 
@@ -43,14 +43,14 @@ It lands as a separate profile, so it never touches your existing VS Code. To sw
 
 ## What's inside
 
-9 extensions, all installed by the link. Every description here came from the extension's own marketplace page, checked in July 2026.
+9 extensions, each installable straight from the marketplace. Every description below came from the extension's own marketplace page, checked July 2026.
 
 | Extension | Publisher | What it does |
 |---|---|---|
 | [Claude Code](https://marketplace.visualstudio.com/items?itemName=anthropic.claude-code) | Anthropic | The main one. Claude in a panel, reading and editing the files in your folder. 21.7M installs. |
-| [Codex](https://marketplace.visualstudio.com/items?itemName=openai.chatgpt) | OpenAI | OpenAI's agent in the same window. I use it to review what Claude wrote and to reach GPT Image 2 without leaving the editor. Comes with a paid ChatGPT plan. 12.3M installs. |
+| [Codex](https://marketplace.visualstudio.com/items?itemName=openai.chatgpt) | OpenAI | OpenAI's agent in the same window. Good for reviewing what Claude wrote and for reaching GPT Image 2 without leaving the editor. Comes with a paid ChatGPT plan. 12.3M installs. |
 | [Gemini Code Assist](https://marketplace.visualstudio.com/items?itemName=google.geminicodeassist) | Google | Google's agent, for a third opinion. Has a free tier. 4.9M installs. |
-| [Min Theme](https://marketplace.visualstudio.com/items?itemName=miguelsolorio.min-theme) | Miguel Solorio | A minimal theme in dark and light. My setup opens in Min Dark. 614K installs. |
+| [Min Theme](https://marketplace.visualstudio.com/items?itemName=miguelsolorio.min-theme) | Miguel Solorio | A minimal theme in dark and light. This setup opens in Min Dark. 614K installs. |
 | [Symbols](https://marketplace.visualstudio.com/items?itemName=miguelsolorio.symbols) | Miguel Solorio | Quiet file icons by the same person who makes Min, so the sidebar matches the theme instead of shouting over it. 893K installs. |
 | [SlashMD](https://marketplace.visualstudio.com/items?itemName=slashmd.slashmd) | SlashMD | A Notion-style block editor for markdown files. This is the one that makes your notes readable. Newest of the 9 at 2.7K installs, so expect rough edges. |
 | [Office Viewer](https://marketplace.visualstudio.com/items?itemName=cweijan.vscode-office) | Database Client | Opens Word, Excel, PowerPoint and PDF files inside the editor. 1.4M installs. |
@@ -73,11 +73,11 @@ The look is only half of it. The rest is tuning an editor built for code so it b
 
 **Autosave after 1 second**, font size 14, line height 1.7, and a bit of padding at the top so text isn't jammed against the edge.
 
-Full file: [settings/settings.json](./settings/settings.json). Every line is commented.
+The [full settings file](./settings/settings.json) is commented line by line.
 
 ## Permissions, and the one thing to be careful about
 
-Claude Code asks permission before it runs a command. Approving every `ls` gets old fast, so my setup turns on terminal auto-approve with a rule list.
+Claude Code asks permission before it runs a command. Approving every `ls` gets old fast, so this setup turns on terminal auto-approve with a rule list.
 
 Reading commands go through without asking: `ls`, `cat`, `grep`, `git status`, `git diff`, `npm list` and about 80 more. Anything that deletes, downloads, or changes permissions is refused every time: `rm`, `curl`, `wget`, `kill`, `chmod`, `eval`. Global auto-approve stays off.
 
@@ -103,11 +103,9 @@ Walk me through it and explain what each part actually does.
 
 That works before you've installed anything, from your phone or the web. You can't break much as long as you're working in a test folder.
 
-## Cursor and other editors
+## Cursor
 
-Cursor, Windsurf, VSCodium and Antigravity are all built on VS Code, so the settings file works as-is and most extensions are available. The one-click profile link does not work outside VS Code.
-
-See [cursor/README.md](./cursor/README.md) for the manual path.
+Cursor is VS Code underneath, so all of this works there the same way. The only difference is the import link, which opens in VS Code. In Cursor, install the extensions from the sidebar and paste [settings/settings.json](./settings/settings.json) into your settings.
 
 ## Requirements
 
@@ -123,8 +121,7 @@ vscode-setup-guide/
 ├── README.md              this guide
 ├── profile/               the one-click import file
 ├── settings/              settings.json, commented
-├── scripts/install.sh     manual install if the link fails
-└── cursor/                the Cursor path
+└── scripts/install.sh     manual install if the link fails
 ```
 
 ## About the author
