@@ -1,18 +1,18 @@
 # VS Code Setup Guide
 
-Run Claude Code in a window that doesn't fight you. The theme, the 9 extensions, every setting. **One click imports the whole thing.**
+Claude Code, Codex, and Gemini running in one window, with your folders and documents open beside them. The theme, the 9 extensions, and every setting, installed by one link.
 
-You don't need to know how to code. This is a place to write, plan, run a business, and talk to 3 AI agents at once, and it happens to be a code editor.
+No coding needed. VS Code was built for code, but nothing in this setup asks you to write any.
 
 Free and MIT-licensed.
 
+> **Stuck at any point, ask Claude.** Copy this page into Claude, say which step you're on, and have it explain the part that isn't landing. This works before you have installed anything, from your phone or the web.
+
 ## Why not the desktop app
 
-The Claude desktop app is slower than it should be, it crashes, and it goes down at moments when the same account works fine everywhere else. That's annoying but survivable.
+Your files are not in the desktop app. You can't open the document Claude just wrote and edit it, you can't see what it changed, and you can't put a second agent on the same work to check it.
 
-The real problem is that you can't see anything. Your files aren't there. You can't open the document Claude just wrote and edit it. You can't have a second agent check its work. You're talking to something clever through a keyhole.
-
-VS Code is free, made by Microsoft, and it's really just a fast window for working with files. Put Claude inside it and you get your whole workspace down the left, the document in the middle, and the agent in a panel at the bottom. Same Claude. Same subscription. Better room.
+VS Code is free, made by Microsoft, and it is a fast window for working with files. Claude runs inside it with your folders down the left, the document in the middle, and the agent in a panel at the bottom. Same Claude, same account, same subscription.
 
 ## What you get
 
@@ -28,6 +28,8 @@ VS Code is free, made by Microsoft, and it's really just a fast window for worki
 **1. Get VS Code.** Download it from [code.visualstudio.com](https://creatorschool.link/vscode). It's free, and the big blue button picks the right version for your computer. Already have it? Skip to step 2.
 
 **2. Import the setup.** [Click here to import the profile](https://creatorschool.link/vscodesetup). Your browser opens, you click "Import Profile in Visual Studio Code", VS Code opens, you click Import. Every extension installs itself and the whole look applies.
+
+You'll know it worked when the editor turns dark and quiet, the file icons change, and Claude appears in a panel across the bottom.
 
 The link doesn't change. When the setup is updated, the same link serves the new version, so you can re-import any time.
 
@@ -55,53 +57,51 @@ It lands as a separate profile, so it never touches your existing VS Code. To sw
 | [SlashMD](https://marketplace.visualstudio.com/items?itemName=slashmd.slashmd) | SlashMD | A Notion-style block editor for markdown files. This is the one that makes your notes readable. Newest of the 9 at 2.7K installs, so expect rough edges. |
 | [Office Viewer](https://marketplace.visualstudio.com/items?itemName=cweijan.vscode-office) | Database Client | Opens Word, Excel, PowerPoint and PDF files inside the editor. 1.4M installs. |
 | [Live Preview](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server) | Microsoft | Runs a local server so you can see a web page as you change it. Useful the day you make anything for the web. 13.2M installs. |
-| [Pixel Agents](https://marketplace.visualstudio.com/items?itemName=pablodelucca.pixel-agents) | Pablo De Lucca | Your Claude Code agents as pixel-art characters wandering an office while they work. Pure fun, delete it if you hate it. 78K installs. |
+| [Pixel Agents](https://marketplace.visualstudio.com/items?itemName=pablodelucca.pixel-agents) | Pablo De Lucca | Your Claude Code agents as pixel-art characters wandering an office while they work. Remove it if you don't want it. 78K installs. |
 
 ## The settings
 
-The look is only half of it. The rest is tuning an editor built for code so it behaves for writing.
+The extensions are half of it. The rest is turning off the things a code editor does that get in the way when you're writing.
 
-**Autocomplete is off in markdown and YAML.** In code, a popup suggesting the rest of your word is helpful. Mid-sentence it's infuriating. Spellcheck squiggles and YAML validation are off in those files too.
+**Autocomplete is off in markdown and YAML.** In code, a popup suggesting the rest of your word helps. Mid-sentence it interrupts you. Spellcheck squiggles and YAML validation are off in those files too.
 
-**Word wrap is on.** Long paragraphs wrap to the window instead of running off the right edge. If you write anything longer than a line, this is the setting you'd have missed.
+**Word wrap is on.** Long paragraphs wrap to the window instead of running off the right edge.
 
 **The clutter is gone.** No minimap down the right side, no breadcrumb trail above the editor, no sticky headers, no lightbulb hints. None of it helps when the file is prose.
 
 **Files open as real tabs.** By default VS Code opens files in italics and the next file replaces the last one. That's off. Every file you open stays open.
 
-**SlashMD is set as the editor for `.md` files.** This one isn't cosmetic. Office Viewer also claims markdown, and with both extensions installed and no instruction, VS Code picks whichever loads first. The setting makes it always SlashMD, which is the difference between your notes reading like Notion and reading like a text file.
+**SlashMD is set as the editor for `.md` files.** Office Viewer also claims markdown, and with both installed and no instruction, VS Code picks whichever loads first. This setting makes it always SlashMD, so your notes open as a Notion-style page rather than raw text.
 
 **Autosave after 1 second**, font size 14, line height 1.7, and a bit of padding at the top so text isn't jammed against the edge.
 
 The [full settings file](./settings/settings.json) is commented line by line.
 
-## Permissions, and the one thing to be careful about
+## Permissions
 
 Claude Code asks permission before it runs a command. Approving every `ls` gets old fast, so this setup turns on terminal auto-approve with a rule list.
 
 Reading commands go through without asking: `ls`, `cat`, `grep`, `git status`, `git diff`, `npm list` and about 80 more. Anything that deletes, downloads, or changes permissions is refused every time: `rm`, `curl`, `wget`, `kill`, `chmod`, `eval`. Global auto-approve stays off.
 
-You get the hands-off feel without handing an agent an unguarded `rm` on day one.
+The result is that Claude keeps moving without stopping to ask, and still cannot delete your files.
 
-That said: an agent editing files is still an agent editing files. Point it at a fresh folder while you're learning. Don't open your Documents folder and walk away.
+Point it at a fresh folder while you're learning anyway. Don't open your Documents folder and walk away.
 
-If you'd rather approve everything yourself, turn terminal auto-approve off in the Claude Code panel settings. If you later want full bypass, that's a deliberate choice to make once you know what you're doing, not a default.
+If you'd rather approve everything yourself, turn terminal auto-approve off in the Claude Code panel settings.
 
 ## Prefer light mode
 
-Min ships both. Press `Cmd + Shift + P` (Windows: `Ctrl + Shift + P`) to open the Command Palette, which is a search bar for every command in the app and the most useful shortcut here by a distance. Type `theme`, choose "Preferences: Color Theme", then pick Min Light. Same 3 steps to go back.
+Min ships both. Press `Cmd + Shift + P` (Windows: `Ctrl + Shift + P`) to open the Command Palette, a search bar for every command in the app. Type `theme`, choose "Preferences: Color Theme", then pick Min Light. Same 3 steps to go back.
 
 ## If you get stuck
 
-Don't push through confused. Copy this page, paste it into Claude, and ask about whatever step you're on:
+Copy this page into Claude and ask about whatever step you're on:
 
 ```
 I'm following this VS Code setup guide and I'm stuck on [step].
 Here's what I'm seeing: [describe it or paste a screenshot].
-Walk me through it and explain what each part actually does.
+Walk me through it and explain what each part does.
 ```
-
-That works before you've installed anything, from your phone or the web. You can't break much as long as you're working in a test folder.
 
 ## Cursor
 
