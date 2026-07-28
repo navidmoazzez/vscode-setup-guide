@@ -25,7 +25,7 @@ VS Code is free, made by Microsoft, and it's really just a fast window for worki
 
 ## Install
 
-**1. Get VS Code.** Download it from [code.visualstudio.com](https://code.visualstudio.com). It's free, and the big blue button picks the right version for your computer. Already have it? Skip to step 2.
+**1. Get VS Code.** Download it from [code.visualstudio.com](https://creatorschool.link/vscode). It's free, and the big blue button picks the right version for your computer. Already have it? Skip to step 2.
 
 **2. Import my setup.** [Click here to import the profile](PROFILE_LINK_PLACEHOLDER). Your browser opens, you click "Import Profile in Visual Studio Code", VS Code opens, you click Import. Every extension installs itself and the whole look applies.
 
@@ -66,6 +66,8 @@ The look is only half of it. The rest is tuning an editor built for code so it b
 **The clutter is gone.** No minimap down the right side, no breadcrumb trail above the editor, no sticky headers, no lightbulb hints. None of it helps when the file is prose.
 
 **Files open as real tabs.** By default VS Code opens files in italics and the next file replaces the last one. That's off. Every file you open stays open.
+
+**SlashMD is set as the editor for `.md` files.** This one isn't cosmetic. Office Viewer also claims markdown, and with both extensions installed and no instruction, VS Code picks whichever loads first. The setting makes it always SlashMD, which is the difference between your notes reading like Notion and reading like a text file.
 
 **Autosave after 1 second**, font size 14, line height 1.7, and a bit of padding at the top so text isn't jammed against the edge.
 
