@@ -27,7 +27,7 @@ VS Code is free, made by Microsoft, and it's really just a fast window for worki
 
 **1. Get VS Code.** Download it from [code.visualstudio.com](https://creatorschool.link/vscode). It's free, and the big blue button picks the right version for your computer. Already have it? Skip to step 2.
 
-**2. Import my setup.** [Click here to import the profile](https://vscode.dev/editor/profile/github/9316d92bf0028149ba10d16369c0ab5b). Your browser opens, you click "Import Profile in Visual Studio Code", VS Code opens, you click Import. Every extension installs itself and the whole look applies.
+**2. Import my setup.** [Click here to import the profile](https://creatorschool.link/vscodesetup). Your browser opens, you click "Import Profile in Visual Studio Code", VS Code opens, you click Import. Every extension installs itself and the whole look applies.
 
 The link doesn't change. When I update my setup, the same link serves the new version, so you can re-import any time.
 
