@@ -126,17 +126,19 @@ vscode-setup-guide/
 
 ## About the author
 
-Navid Moazzez is the founder of [Creator School AI](https://creatorschool.ai), creator of [AI Creator OS](https://creatorschool.ai/ai-creator-os), and host of the [AI Creator Summit](https://creatorschool.ai/ai-creator-summit), watched by 100,000+ creators. He helps creators and founders master AI and build their own AI Operating System (AI OS) to automate their business and life. This is the VS Code setup he runs Claude Code and every other AI agent in.
+Navid Moazzez is a leading AI business strategist and the host of the [AI Creator Summit](https://summits.navid.me/ai-creator), watched by 100,000+ creators. He helps creators and founders master AI and build their own AI Operating System (AI OS) to automate their business and life. This is the VS Code setup he runs Claude Code and every other AI agent in.
 
 **Links**
 
-- Creator School AI: [creatorschool.ai](https://creatorschool.ai)
-- AI Creator OS: [creatorschool.ai/ai-creator-os](https://creatorschool.ai/ai-creator-os)
-- AI Creator Summit: [creatorschool.ai/ai-creator-summit](https://creatorschool.ai/ai-creator-summit)
 - Personal website: [navid.me](https://navid.me)
 - Store: [navid.bio](https://navid.bio)
-- YouTube: [@thenavidm](https://youtube.com/@thenavidm?sub_confirmation=1) and [@creatorschoolai](https://youtube.com/@creatorschoolai?sub_confirmation=1)
-- X: [@thenavidm](https://x.com/thenavidm) and [@creatorschoolai](https://x.com/creatorschoolai)
+- AI OS Starter Kit: [aios.guide](https://aios.guide)
+- AI OS Workshop: [aiosworkshop.com](https://aiosworkshop.com)
+- AI Creator Summit: [summits.navid.me/ai-creator](https://summits.navid.me/ai-creator)
+- AI Tools Library: [aitoolslibrary.io](https://aitoolslibrary.io)
+- Video Gear Guide: [videogear.guide](https://videogear.guide)
+- YouTube: [@thenavidm](https://youtube.com/@thenavidm?sub_confirmation=1) and [@thenavidai](https://youtube.com/@thenavidai?sub_confirmation=1)
+- X: [@thenavidm](https://x.com/thenavidm)
 - Instagram: [@thenavidm](https://instagram.com/thenavidm)
 - LinkedIn: [thenavidm](https://linkedin.com/in/thenavidm)
 
@@ -144,6 +146,8 @@ Navid Moazzez is the founder of [Creator School AI](https://creatorschool.ai), c
 
 [MIT](./LICENSE). Free to use, modify, and share.
 
+Not affiliated with, endorsed by, or connected to Microsoft.
+
 ---
 
-© 2026 [Creator School AI](https://creatorschool.ai) is a trademark of NM Media. Made with ❤️ by [Navid Moazzez](https://navid.me).
+© 2026 NM Media. Made with ❤️ by [Navid Moazzez](https://navid.me).
