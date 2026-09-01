@@ -130,8 +130,8 @@ Navid Moazzez is a leading AI business strategist and the host of the [AI Creato
 
 **Links**
 
-- Personal website: [navid.me](https://navid.me)
-- Store: [navid.bio](https://navid.bio)
+- Personal website: [navid.me](https://navid.me?utm_source=github&utm_medium=readme&utm_campaign=vscode-setup-guide)
+- Store: [navid.bio](https://navid.bio?utm_source=github&utm_medium=readme&utm_campaign=vscode-setup-guide)
 - AI Creator Summit: [summits.navid.me/ai-creator](https://summits.navid.me/ai-creator)
 - YouTube: [@thenavidm](https://youtube.com/@thenavidm?sub_confirmation=1) and [@thenavidai](https://youtube.com/@thenavidai?sub_confirmation=1)
 - X: [@thenavidm](https://x.com/thenavidm)
@@ -146,4 +146,4 @@ Not affiliated with, endorsed by, or connected to Microsoft.
 
 ---
 
-© 2026 NM Media. Made with ❤️ by [Navid Moazzez](https://navid.me).
+© 2026 [NM Media](https://navid.media?utm_source=github&utm_medium=readme&utm_campaign=vscode-setup-guide). Made with ❤️ by [Navid Moazzez](https://navid.me?utm_source=github&utm_medium=readme&utm_campaign=vscode-setup-guide).
