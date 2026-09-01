@@ -124,21 +124,21 @@ vscode-setup-guide/
 └── scripts/install.sh     manual install if the link fails
 ```
 
-## About the author
+## About the author 👋
 
-Navid Moazzez is a leading AI business strategist and the host of the [AI Creator Summit](https://summits.navid.me/ai-creator), watched by 100,000+ creators. He helps creators and founders master AI and build their own AI Operating System (AI OS) to automate their business and life. This is the VS Code setup he runs Claude Code and every other AI agent in.
+Navid Moazzez is a leading AI business strategist, and the host of the AI Creator Summit, watched by 100,000+ creators. He helps creators and founders master AI and build their own AI Operating System (AI OS) to automate their business and life. This is the VS Code setup he runs Claude Code and every other AI agent in.
 
 **Links**
 
 - Personal website: [navid.me](https://navid.me?utm_source=github&utm_medium=readme&utm_campaign=vscode-setup-guide)
 - Store: [navid.bio](https://navid.bio?utm_source=github&utm_medium=readme&utm_campaign=vscode-setup-guide)
-- AI Creator Summit: [summits.navid.me/ai-creator](https://summits.navid.me/ai-creator)
+- Navid Media: [navid.media](https://navid.media?utm_source=github&utm_medium=readme&utm_campaign=vscode-setup-guide)
 - YouTube: [@thenavidm](https://youtube.com/@thenavidm?sub_confirmation=1) and [@thenavidai](https://youtube.com/@thenavidai?sub_confirmation=1)
 - X: [@thenavidm](https://x.com/thenavidm)
 - Instagram: [@thenavidm](https://instagram.com/thenavidm)
 - LinkedIn: [thenavidm](https://linkedin.com/in/thenavidm)
 
-## License
+## License ⚖️
 
 [MIT](./LICENSE). Free to use, modify, and share.
 
