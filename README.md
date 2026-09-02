@@ -52,11 +52,17 @@ Same Claude, same account, same subscription, either way.
 
 **1. Get VS Code.** Download it from [code.visualstudio.com](https://code.visualstudio.com). It's free, and the big blue button picks the right version for your computer. Already have it? Skip to step 2.
 
-**2. Import the setup.** [Click here to import the profile](https://creatorschool.link/vscodesetup). Your browser opens, you click "Import Profile in Visual Studio Code", VS Code opens, you click Import. Every extension installs itself and the whole look applies.
+**2. Install the setup.** One command. It installs the 9 extensions and applies the settings:
+
+```bash
+npx degit navidmoazzez/vscode-setup-guide vscode-setup && bash vscode-setup/scripts/install.sh
+```
+
+Your existing settings are backed up first and the path is printed, so nothing you already had is lost. If you would rather read it before running it, that is `scripts/install.sh` and it is 60 lines.
+
+Running Claude Code already? Paste that command in and let it do the whole thing, then tell it to restart VS Code for you.
 
 You'll know it worked when the editor turns dark and quiet, the file icons change, and Claude appears in a panel across the bottom.
-
-The link doesn't change. When the setup is updated, the same link serves the new version, so you can re-import any time.
 
 **3. Sign in to Claude.** Open the Claude Code panel at the bottom and sign in with your Claude account. A Pro or Max subscription works. You don't need an API key.
 
@@ -66,7 +72,7 @@ That's the whole install. Steps 4 and 5 are optional and take 2 minutes each.
 
 **5. Open a folder.** File → Open Folder, and pick one. This is the part people miss: VS Code is built around a folder, and Claude reads everything inside the one you open. Make a fresh folder for your first week so you're not pointing an agent at anything that matters.
 
-It lands as a separate profile, so it never touches your existing VS Code. To switch in or out, click the gear in the bottom-left corner and choose Profiles.
+Prefer to keep your current setup untouched? Import `profile/navid-vscode.code-profile` from VS Code instead: gear in the bottom-left corner, Profiles, Import Profile. That lands as a separate profile you can switch in and out of, rather than changing the settings you already have.
 
 ## What's inside 📦
 
