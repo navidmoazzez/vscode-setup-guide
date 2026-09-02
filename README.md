@@ -7,23 +7,27 @@
 [![X](https://img.shields.io/badge/X-@thenavidm-black?logo=x)](https://x.com/thenavidm)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-thenavidm-0A66C2?logo=linkedin&logoColor=white)](https://linkedin.com/in/thenavidm)
 
-A complete VS Code setup for running Claude Code, packaged so you can install the whole thing in one click.
+A complete VS Code setup for running Claude Code. One click installs the whole thing.
 
-VS Code is a free app from Microsoft. It was built for writing code, but no coding is needed here. It is really just a fast window for working with files, which is what makes it a good place to run an AI agent. You can see every file the agent touches, keep your own documents open next to it, and run Claude, Codex, and Gemini at the same time.
+VS Code is a free app from Microsoft, built for writing code. You will not be writing any.
 
-Out of the box VS Code behaves like the code editor it is. Word wrap is off, so long paragraphs run off the right edge. Autosave is off. Files open in preview tabs that replace each other. Markdown opens as raw text. The minimap, breadcrumbs, sticky scroll and lightbulb hints are all on. The link in step 2 changes every one of those, and adds the theme and the 9 extensions, in one step.
+Think of it as a fast window onto your files, which is exactly what makes it a good home for an AI agent. You see every file the agent touches. You keep your own documents open beside it. You run Claude, Codex and Gemini at the same time, in the same window.
+
+Out of the box it behaves like the code editor it is, and that gets in the way. Word wrap is off, so long paragraphs run off the right edge. Autosave is off. Files open in preview tabs that quietly replace each other. Markdown shows up as raw text. The minimap, breadcrumbs, sticky scroll and lightbulb hints are all on, and all in your way.
+
+The link in step 2 fixes every one of those, and adds the theme and the 9 extensions, in one step.
 
 Built and maintained by [Navid Moazzez](https://navid.me?utm_source=github&utm_medium=readme&utm_campaign=vscode-setup-guide).
 
 > **Stuck at any point, ask Claude.** Copy this page into Claude, say which step you're on, and have it explain the part that isn't landing. This works before you have installed anything, from your phone or the web.
 
-## Why not the desktop app
+## Why not the desktop app 🖥️
 
 Your files are not in the desktop app. You can't open the document Claude just wrote and edit it, you can't see what it changed, and you can't put a second agent on the same work to check it.
 
 VS Code is free, made by Microsoft, and it is a fast window for working with files. Claude runs inside it with your folders down the left, the document in the middle, and the agent in a panel at the bottom. Same Claude, same account, same subscription.
 
-## What you get
+## What you get 🎁
 
 1. **Claude Code in a panel**, with your files visible next to it instead of hidden behind an app.
 2. **3 agents in one window.** Claude does the work, Codex reviews it and gives you GPT Image 2 in the editor, Gemini is there when you want a third read.
@@ -32,7 +36,7 @@ VS Code is free, made by Microsoft, and it is a fast window for working with fil
 5. **A quiet editor.** No minimap, no breadcrumbs, no autocomplete popping up mid-sentence, no spellcheck squiggles under every proper noun.
 6. **Safe hands-off mode.** Claude runs the harmless commands without asking and still stops at anything that deletes or downloads.
 
-## Install
+## Install ⚡
 
 **1. Get VS Code.** Download it from [code.visualstudio.com](https://code.visualstudio.com). It's free, and the big blue button picks the right version for your computer. Already have it? Skip to step 2.
 
@@ -52,7 +56,7 @@ That's the whole install. Steps 4 and 5 are optional and take 2 minutes each.
 
 It lands as a separate profile, so it never touches your existing VS Code. To switch in or out, click the gear in the bottom-left corner and choose Profiles.
 
-## What's inside
+## What's inside 📦
 
 9 extensions, each installable straight from the marketplace. Every description below came from the extension's own marketplace page, checked July 2026.
 
@@ -68,7 +72,7 @@ It lands as a separate profile, so it never touches your existing VS Code. To sw
 | [Live Preview](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server) | Microsoft | Runs a local server so you can see a web page as you change it. Useful the day you make anything for the web. 13.2M installs. |
 | [Pixel Agents](https://marketplace.visualstudio.com/items?itemName=pablodelucca.pixel-agents) | Pablo De Lucca | Your Claude Code agents as pixel-art characters wandering an office while they work. Remove it if you don't want it. 78K installs. |
 
-## The settings
+## The settings ⚙️
 
 The extensions are half of it. The rest is turning off the things a code editor does that get in the way when you're writing.
 
@@ -86,7 +90,7 @@ The extensions are half of it. The rest is turning off the things a code editor 
 
 The [full settings file](./settings/settings.json) is commented line by line.
 
-## Permissions
+## Permissions 🔐
 
 Claude Code asks permission before it runs a command. Approving every `ls` gets old fast, so this setup turns on terminal auto-approve with a rule list.
 
@@ -98,11 +102,11 @@ Point it at a fresh folder while you're learning anyway. Don't open your Documen
 
 If you'd rather approve everything yourself, turn terminal auto-approve off in the Claude Code panel settings.
 
-## Prefer light mode
+## Prefer light mode ☀️
 
 Min ships both. Press `Cmd + Shift + P` (Windows: `Ctrl + Shift + P`) to open the Command Palette, a search bar for every command in the app. Type `theme`, choose "Preferences: Color Theme", then pick Min Light. Same 3 steps to go back.
 
-## If you get stuck
+## If you get stuck 🆘
 
 Copy this page into Claude and ask about whatever step you're on:
 
@@ -112,18 +116,18 @@ Here's what I'm seeing: [describe it or paste a screenshot].
 Walk me through it and explain what each part does.
 ```
 
-## Cursor
+## Cursor 🧭
 
 Cursor is VS Code underneath, so all of this works there the same way. The only difference is the import link, which opens in VS Code. In Cursor, install the extensions from the sidebar and paste [settings/settings.json](./settings/settings.json) into your settings.
 
-## Requirements
+## Requirements ✅
 
 - A Mac or Windows computer
 - [VS Code](https://code.visualstudio.com), free
 - A Claude Pro or Max subscription for [Claude Code](https://claude.com/claude-code). No API key needed.
 - Optional: a paid [ChatGPT](https://chatgpt.com) plan for Codex, a [Google](https://codeassist.google) account for Gemini Code Assist
 
-## What's in this repo
+## What's in this repo 📂
 
 ```
 vscode-setup-guide/
