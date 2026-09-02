@@ -1,10 +1,19 @@
+<img src="https://cdn.navid.media/shared/tool-logos/vscode.png" alt="VS Code" width="88">
+
 # VS Code Setup Guide
+
+[![License](https://img.shields.io/badge/License-MIT-green)](./LICENSE)
+[![YouTube](https://img.shields.io/badge/YouTube-@thenavidm-red?logo=youtube&logoColor=white)](https://youtube.com/@thenavidm?sub_confirmation=1)
+[![X](https://img.shields.io/badge/X-@thenavidm-black?logo=x)](https://x.com/thenavidm)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-thenavidm-0A66C2?logo=linkedin&logoColor=white)](https://linkedin.com/in/thenavidm)
 
 A complete VS Code setup for running Claude Code, packaged so you can install the whole thing in one click.
 
 VS Code is a free app from Microsoft. It was built for writing code, but no coding is needed here. It is really just a fast window for working with files, which is what makes it a good place to run an AI agent. You can see every file the agent touches, keep your own documents open next to it, and run Claude, Codex, and Gemini at the same time.
 
 Out of the box VS Code behaves like the code editor it is. Word wrap is off, so long paragraphs run off the right edge. Autosave is off. Files open in preview tabs that replace each other. Markdown opens as raw text. The minimap, breadcrumbs, sticky scroll and lightbulb hints are all on. The link in step 2 changes every one of those, and adds the theme and the 9 extensions, in one step.
+
+Built and maintained by [Navid Moazzez](https://navid.me?utm_source=github&utm_medium=readme&utm_campaign=vscode-setup-guide).
 
 > **Stuck at any point, ask Claude.** Copy this page into Claude, say which step you're on, and have it explain the part that isn't landing. This works before you have installed anything, from your phone or the web.
 
@@ -25,7 +34,7 @@ VS Code is free, made by Microsoft, and it is a fast window for working with fil
 
 ## Install
 
-**1. Get VS Code.** Download it from [code.visualstudio.com](https://creatorschool.link/vscode). It's free, and the big blue button picks the right version for your computer. Already have it? Skip to step 2.
+**1. Get VS Code.** Download it from [code.visualstudio.com](https://code.visualstudio.com). It's free, and the big blue button picks the right version for your computer. Already have it? Skip to step 2.
 
 **2. Import the setup.** [Click here to import the profile](https://creatorschool.link/vscodesetup). Your browser opens, you click "Import Profile in Visual Studio Code", VS Code opens, you click Import. Every extension installs itself and the whole look applies.
 
@@ -110,9 +119,9 @@ Cursor is VS Code underneath, so all of this works there the same way. The only 
 ## Requirements
 
 - A Mac or Windows computer
-- [VS Code](https://creatorschool.link/vscode), free
-- A Claude Pro or Max subscription for [Claude Code](https://creatorschool.link/claudecode). No API key needed.
-- Optional: a paid [ChatGPT](https://creatorschool.link/chatgpt) plan for Codex, a [Google](https://creatorschool.link/gemini) account for Gemini Code Assist
+- [VS Code](https://code.visualstudio.com), free
+- A Claude Pro or Max subscription for [Claude Code](https://claude.com/claude-code). No API key needed.
+- Optional: a paid [ChatGPT](https://chatgpt.com) plan for Codex, a [Google](https://codeassist.google) account for Gemini Code Assist
 
 ## What's in this repo
 
