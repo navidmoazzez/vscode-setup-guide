@@ -19,6 +19,8 @@ The link in step 2 fixes every one of those, and adds the theme and the 9 extens
 
 Built and maintained by [Navid Moazzez](https://navid.me?utm_source=github&utm_medium=readme&utm_campaign=vscode-setup-guide).
 
+<img src="https://cdn.navid.media/repos/vscode-setup-guide.gif?v=1" alt="Claude Code installing the VS Code setup" width="520">
+
 > **Stuck at any point, ask Claude.** Copy this page into Claude, say which step you're on, and have it explain the part that isn't landing. This works before you have installed anything, from your phone or the web.
 
 ## VS Code or the Claude desktop app 🖥️
