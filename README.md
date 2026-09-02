@@ -21,11 +21,17 @@ Built and maintained by [Navid Moazzez](https://navid.me?utm_source=github&utm_m
 
 > **Stuck at any point, ask Claude.** Copy this page into Claude, say which step you're on, and have it explain the part that isn't landing. This works before you have installed anything, from your phone or the web.
 
-## Why not the desktop app 🖥️
+## VS Code or the desktop app 🖥️
 
-Your files are not in the desktop app. You can't open the document Claude just wrote and edit it, you can't see what it changed, and you can't put a second agent on the same work to check it.
+Both are solid. It comes down to what you want out of it.
 
-VS Code is free, made by Microsoft, and it is a fast window for working with files. Claude runs inside it with your folders down the left, the document in the middle, and the agent in a panel at the bottom. Same Claude, same account, same subscription.
+The Claude desktop app has come a long way. Its Code tab works on your local files directly, with a file editor, a terminal, diff review, and parallel sessions that each get their own copy of the project. It runs the same engine as the command line and reads the same `CLAUDE.md`, skills and connectors. If Claude is the only agent you use, it is a good place to work and there is nothing to set up.
+
+This setup is for the other case. VS Code lets you run Claude, Codex and Gemini in one window on the same folder, so you can put a second agent on the first one's work and have it checked by something that did not write it.
+
+You also get the rest of the editor around it. Markdown renders as you type. Word documents and PDFs open in place instead of bouncing you to another app. The theme stops it looking like a terminal.
+
+Same Claude, same account, same subscription, either way.
 
 ## What you get 🎁
 
