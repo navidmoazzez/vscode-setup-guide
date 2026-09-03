@@ -57,7 +57,7 @@ Same Claude, same account, same subscription, either way.
 **2. Install the setup.** One command. It installs the 9 extensions and applies the settings:
 
 ```bash
-npx degit navidmoazzez/vscode-setup-guide vscode-setup && bash vscode-setup/scripts/install.sh
+npx degit thenavidm/vscode-setup-guide vscode-setup && bash vscode-setup/scripts/install.sh
 ```
 
 Your existing settings are backed up first and the path is printed, so nothing you already had is lost. If you would rather read it before running it, that is `scripts/install.sh` and it is 60 lines.

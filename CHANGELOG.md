@@ -13,7 +13,7 @@ First release.
 ### One command
 
 ```bash
-npx degit navidmoazzez/vscode-setup-guide vscode-setup && bash vscode-setup/scripts/install.sh
+npx degit thenavidm/vscode-setup-guide vscode-setup && bash vscode-setup/scripts/install.sh
 ```
 
 Installs the 9 extensions, applies the settings, and backs up whatever you had
